@@ -42,6 +42,10 @@ main{
   flex-direction: row;
   align-items: flex-end;
 
+  p{
+    width: 95%;
+  }
+
   span {
     margin-right: 10px
   }
@@ -53,4 +57,9 @@ main{
  }
 }
 
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
